@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Recursive Function </title>
+</head>
+
+<body>
+
+    <!-- 
+    
+        Recursive Function ==> Function Calls itself
+        
+        ==> Always work with if 
+
+        Syntex:-
+
+        Function FunctionName()
+        {
+            code....!
+            FunctionName() // Recursive Function
+        }
+        FunctionName()
+
+    -->
+
+    <script>
+        x = 1;
+
+        function hem() {
+            if (x <= 3) {
+                document.write('Recursive...!' + '<br>')
+                x++;
+                hem()
+            }
+        }
+        hem()
+    </script>
+
+
+</body>
+
+</html>
